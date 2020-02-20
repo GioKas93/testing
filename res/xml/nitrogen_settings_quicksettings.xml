@@ -75,9 +75,15 @@
         android:title="@string/qs_columns_rows_category_title">
 
         <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
-        android:key="qs_tile_title_visibility"
-        android:title="@string/qs_tile_title_visibility_title"
-        android:defaultValue="true" />
+            android:key="qs_tile_title_visibility"
+            android:title="@string/qs_tile_title_visibility_title"
+            android:defaultValue="true" />
+
+        <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_panel_bg_use_new_tint"
+            android:title="@string/qs_bg_use_new_tint"
+            android:summary="@string/qs_bg_use_new_tint_summary"
+            android:defaultValue="true" />
 
         <com.nitrogen.preferences.SystemSettingSeekBarPreference
             android:key="qs_rows_portrait"
