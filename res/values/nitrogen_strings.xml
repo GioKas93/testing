@@ -233,6 +233,10 @@
     <string name="powermenu_lockscreen_title">Lockscreen visibility</string>
     <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
 
+    <!-- Double tap to doze -->
+    <string name="doze_double_tap_title">Double tap to doze</string>
+    <string name="doze_double_tap_summary">Double tap trigger doze instead of wake</string>
+
    <!-- Statusbar Clock -->
    <string name="status_bar_clock_date_title">Clock and Date</string>
    <string name="status_bar_clock_date_summary">Customize your statusbar clock and date</string>
