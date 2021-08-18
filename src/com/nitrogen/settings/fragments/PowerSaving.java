@@ -51,7 +51,7 @@ public class PowerSaving extends SettingsPreferenceFragment implements OnPrefere
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.cherish_settings_powersave);
+        addPreferencesFromResource(R.xml.nitrogen_settings_powersave);
         ContentResolver resolver = getActivity().getContentResolver();
         mPowerProfile = (SystemSettingListPreference) findPreference(POWER_PROFILE);
         mPowerProfile.setOnPreferenceChangeListener(this);
@@ -77,6 +77,6 @@ public class PowerSaving extends SettingsPreferenceFragment implements OnPrefere
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CHERISH_SETTINGS;
+        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
     }
 }
