@@ -21,6 +21,7 @@
         <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
+            android:summary="@string/statusbar_summary"
             android:fragment="com.nitrogen.settings.fragments.StatusBarSettings" 
             android:icon="@drawable/ic_settings_statusbar"/>
 
@@ -28,6 +29,7 @@
         <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
+            android:summary="@string/quicksettings_summary"
             android:fragment="com.nitrogen.settings.fragments.QuickSettings"
             android:icon="@drawable/ic_settings_quicksettings"/>
 
@@ -35,6 +37,7 @@
         <Preference
             android:key="buttonsettings_category"
             android:title="@string/button_title"
+            android:summary="@string/button_summary"
             android:fragment="com.nitrogen.settings.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
 
@@ -42,6 +45,7 @@
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
+            android:summary="@string/navbar_summary"
             android:fragment="com.nitrogen.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
@@ -49,6 +53,7 @@
         <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title"
+            android:summary="@string/gestures_summary"
             android:fragment="com.nitrogen.settings.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gesture"/>
 
@@ -56,6 +61,7 @@
         <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
+            android:summary="@string/lockscreen_summary"
             android:fragment="com.nitrogen.settings.fragments.LockScreenSettings"
             android:icon="@drawable/ic_settings_lockscreens"/>
 
@@ -70,6 +76,7 @@
         <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
+            android:summary="@string/notifications_summary"
             android:fragment="com.nitrogen.settings.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notification"/>
 
@@ -77,6 +84,7 @@
         <Preference
             android:key="misc_category"
             android:title="@string/misc_title"
+            android:summary="@string/misc_summary"
             android:fragment="com.nitrogen.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_miscs"/>
 
