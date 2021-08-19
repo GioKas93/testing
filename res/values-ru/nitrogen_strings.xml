@@ -21,7 +21,6 @@
     <string name="lockscreen_title">Экран блокировки</string>
     <string name="misc_title">Разные настройки</string>
     <string name="navbar_title">Панель навигации</string>
-    <string name="powermenu_title">Меню питания</string>
     <string name="quicksettings_title">Панель быстрых настроек</string>
     <string name="recents_title">Недавние приложения</string>
     <string name="statusbar_title">Строка состояния</string>
@@ -225,4 +224,8 @@
      <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Скриншот жестом</string>
     <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="powermenu_lockscreen_title">Видимость на экране блокировки</string>
+    <string name="powermenu_lockscreen_summary">Включите, чтобы использовать меню питания на защищенном экране блокировки</string>
 </resources>
