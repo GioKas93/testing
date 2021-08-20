@@ -67,7 +67,7 @@
     <PreferenceCategory
         android:title="@string/ambient_music_title">
 
-        <com.krypton.settings.preference.SettingListPreference
+        <com.nitrogen.settings.preferences.SystemSettingListPreference
             android:key="ambient_music_ticker"
             android:title="@string/ambient_music_location"
             android:summary="%s"
